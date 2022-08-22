@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald&family=Roboto:wght@300&display=swap');
+   
+
+
+:root{
+    /*background color*/
+    --bg-danger:red;
+    --bg-white:white;
+    --bg-light-white:rgb(242, 235, 235);
+    /*text color*/
+    --primary-font:"poppins", sans-serif;
+    --text-white:white;
+    --text-black:black;
+    --text-danger:reg;
+    --text-gray:gray;
+    --text-dark-gray:rgb(100, 99, 99);
+
+}
+body{
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    background: var(--bg-white);
+    color: var(--text-black);
+    overflow-x: hidden;
+    
+}
+/*custom CSS */
+a,
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.btn-danger{
+    background: var(--bg-danger);
+    border-color: var(--bg-danger);
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-danger:hover{
+    color: var(--text-black);
+    background: transparent;
+}
+/*navigation css*/
+#header .fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgba(14, 13, 13, 0.119);
+}
+#header .navbar-nav .nav-item .nav-link{
+    color: var(--text-black);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link .active{
+    color: var(--bg-danger);
+}
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+/*home section */
+
+
+.h5-decor{
+    color: var(--bg-danger);
+}
+/*
+.home .home-banner .home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -58%);
+}
+*/
+
+
+.carosel-item{
+    height: 32rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+#product .row{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#bg-design{
+    height: 200px;
+    background-color: rgba(9, 9, 174, 0.702);
+
+}
+.container{
+    padding-top: 10px;
+    color: antiquewhite;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+/*signup and register*/
+.form{
+  
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.centering{
+    margin-top: 10%;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.617);
+}
+.moving-to-right{
+    margin-left: 43%;
+    
+}
+/*mens*/
+.top-margin{
+    
+    margin: 120px 10px 20px 10px ;
+}
